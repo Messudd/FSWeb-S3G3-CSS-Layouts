@@ -1,0 +1,30 @@
+@import url(reset.css);
+@import url(other.css);
+
+.form_mesud {
+  width: 40%;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: 3px 5px 8px rgba(36, 36, 48, 0.897);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem auto;
+}
+.form_mesud form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.in_same {
+  width: 100%;
+  height: 2rem;
+}
+.btn_social {
+  padding: 0.5rem 1rem;
+}
