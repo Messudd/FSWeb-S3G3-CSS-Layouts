@@ -1,0 +1,6 @@
+@import url(reset.css);
+@import url(other.css);
+
+footer {
+  margin-top: 3rem;
+}

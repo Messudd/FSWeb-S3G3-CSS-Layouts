@@ -1,1 +1,131 @@
 /* CSS stillerinizi buraya girin */
+@import url(reset.css);
+@import url(other.css);
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dddbe1;
+  margin-top: 3rem;
+}
+nav h2 {
+  padding-left: 5rem;
+  font-size: 1.6rem;
+  color: rgb(156, 58, 58);
+  font-weight: bold;
+}
+nav h2 span {
+  padding-bottom: 0.2rem;
+  border-bottom: 5px solid rgba(36, 36, 48, 0.897);
+  border-radius: 10px;
+}
+nav ul {
+  display: flex;
+  margin: 1.5rem;
+  gap: 2rem;
+}
+nav ul li a {
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgba(36, 36, 48, 0.897);
+  color: whitesmoke;
+  text-decoration: none;
+}
+nav ul li a.active {
+  background-color: #dddbe1;
+  border: 1px solid rgba(36, 36, 48, 0.897);
+  color: rgba(36, 36, 48, 0.897);
+}
+nav ul li a:hover {
+  background-color: #dddbe1;
+  border: 1px solid rgba(36, 36, 48, 0.897);
+  color: rgba(36, 36, 48, 0.897);
+  transition: all 0.5s ease;
+}
+main .head_content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/Photos/backgroundMain.jpg);
+  filter: brightness(70%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 360px;
+  margin: 1rem auto;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+main .head_content:hover {
+  filter: brightness(80%);
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.head h1 {
+  color: #fff;
+}
+.head button {
+  cursor: pointer;
+  width: 30%;
+  padding: 0.7rem;
+  border: 1px solid rgb(31, 86, 189);
+  border-radius: 5px;
+  background-color: rgb(63, 122, 231);
+  text-align: center;
+  color: #fff;
+}
+.head button:hover {
+  padding: 0.9rem 1.2rem;
+  transition: all 0.2s linear;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background-color: rgb(248, 248, 248);
+  align-items: center;
+  gap: 0.5rem;
+}
+.card:hover {
+  filter: drop-shadow(3px 3px 5px gray);
+  transition: all 0.3s linear;
+}
+.card img {
+  width: 100%;
+  object-fit: contain;
+}
+.card h3 {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: center;
+}
+.card p {
+  color: #000;
+  opacity: 0.8;
+  padding: 0.5rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+}
+.main_content {
+  /*background-color: #dedce2;*/
+  padding: 1rem;
+  margin: 3rem auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  row-gap: 3rem;
+}
