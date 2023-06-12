@@ -15,25 +15,49 @@
   </head>
   <body>
     <header>
-      <h2>Mesud &nbspport<span>Folio</span></h2>
+      <h2 style="margin-bottom: 8rem">Mesud &nbspport<span>Folio</span></h2>
     </header>
-    <main class="contact_main">
+    <main style="margin-bottom: 5rem" class="contact_main">
       <section class="form_mesud">
-        <h3 style="margin-bottom: 1rem; font-size: 20px">Bana Ulaş ...</h3>
+        <h3 style="margin-bottom: 2rem; font-size: 20px; text-align: center">
+          Bana Ulaş
+          <span
+            style="
+              color: rgb(156, 58, 58);
+              font-weight: bold;
+              font-size: 1.5rem;
+            "
+            >!</span
+          >
+        </h3>
         <form action="form.js">
-          <label for="name">Ad</label>
-          <input class="in_same" type="text" name="name" id="name" />
-          <label for="surname">Soyad</label>
-          <input class="in_same" type="text" name="surname" id="surname" />
-          <label for="email">Email</label>
-          <input class="in_same type="email" name="email" id="email" />
-          <label for="mesaj"></label>
+          <!--<label for="name">Ad</label>-->
+          <input
+            class="in_same"
+            type="text"
+            name="name"
+            id="name"
+            placeholder=" AD"
+          />
+          <!--<label for="surname">Soyad</label>-->
+          <input
+            class="in_same"
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Soyad"
+          />
+          <!--<label for="email">Email</label>-->
+          <input class="in_same type="email" name="email" id="email"
+          placeholder="Email" />
+          <!--<label for="mesaj"></label>-->
           <textarea
             name="mesaj"
             id="mesaj"
             cols="35"
-            rows="10"
-            placeholder="Mesajınızı giriniz ..."
+            rows="5"
+            placeholder="
+            Mesajınızı giriniz ..."
           ></textarea>
           <button class="btn_social" type="button">Gönder</button>
         </form>

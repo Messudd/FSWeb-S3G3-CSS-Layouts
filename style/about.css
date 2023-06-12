@@ -1,19 +1,16 @@
 @import url(reset.css);
 @import url(other.css);
 
-.about_main {
-  width: 100%;
-}
 .about_main h2 {
-  width: 80%;
+  max-width: 80%;
   text-align: center;
   padding-top: 5rem;
   margin: 3rem auto 1.5rem auto;
 }
 section {
-  width: 70%;
+  max-width: 65%;
+  min-height: max-content;
   margin: 3rem auto;
-  height: 60vh;
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
   border-radius: 4px;
